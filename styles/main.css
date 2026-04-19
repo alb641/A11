@@ -98,7 +98,7 @@ section {
 /* the styles for the aside */
 aside {
 	flex-basis: 100%;
-	padding-right: .5em 0;
+	padding-right: 0 .5em;
 }
 
 /* the styles for the footer */
