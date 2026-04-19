@@ -52,6 +52,7 @@ header {
 	background-image: linear-gradient(
 	    30deg, var(--gradient-color) 0%, white 30%, white 65%, var(--gradient-color) 100%);
 	text-align: center;
+}
 	& h2 {
 		font-size: 175%;
 		padding: .5em 0 0 0;
@@ -86,7 +87,7 @@ main {
 section {
 	flex-basis: 100%;
 	padding-left: .5em;
-	border-cottom: 2px solid var(--accent-color); 
+	border-bottom: 2px solid var(--accent-color); 
 	& img {
 		width: clamp(100px, 50%, 250px);
 		float: right;
@@ -96,7 +97,7 @@ section {
 
 /* the styles for the aside */
 aside {
-	flex-basis: 25%;
+	flex-basis: 100%;
 	padding-right: .5em 0;
 }
 
@@ -227,8 +228,6 @@ footer {
     aside {
         flex-basis: 25%; 
     }
-
-    /* Desktop Navigation 
     .menu-btn { display: none; } 
 
     .menu {
