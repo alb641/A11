@@ -84,7 +84,7 @@ main {
 
 /* the styles for the section */
 section {
-	flex-basis: 75%;
+	flex-basis: 100%;
 	padding-left: .5em;
 	border-cottom: 2px solid var(--accent-color); 
 	& img {
@@ -174,7 +174,7 @@ footer {
 }
 #menu-toggle { display: none; }
 .menu {
-	 display: none;
+	display: none;
 	position: absolute;
     left: 0;
     top: 100%;
